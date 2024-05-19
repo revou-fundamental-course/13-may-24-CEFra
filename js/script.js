@@ -58,7 +58,7 @@ hitungKelilingLink.addEventListener("click", function (event) {
                 </form>
             </div>
             <div>
-                <h1 id="result">Keliling = 1</h1>
+                <h1 id="result">Keliling = 0</h1>
             </div>
         </div>
     </section>`;
@@ -90,7 +90,7 @@ luasForm.addEventListener("submit", function (event) {
   var luas = 0.5 * alas * tinggi;
 
   var resultDisplay = document.getElementById("result");
-  resultDisplay.textContent = "Luas = " + luas.toFixed(2);
+  resultDisplay.textContent = "Luas = 0" + luas.toFixed(2);
 });
 
 // fungsi about

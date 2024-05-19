@@ -139,6 +139,23 @@ nav ul li a:hover {
 }
 
 /* calculator end */
-/* 
-#triangle */
 /* main section end */
+
+@media screen and (max-width: 992px) {
+
+    #calculator {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .input-group {
+        display: inline-block;
+        margin-bottom: 10px;
+        margin: 10px;
+    }
+
+    #result {
+        text-align: center;
+    }
+
+}
